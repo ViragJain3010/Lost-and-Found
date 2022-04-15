@@ -1,3 +1,13 @@
+#clg_logo{
+    width:100%
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(199, 220, 250);
+}
+
 .row>* {
     display: flex;
     flex-direction: column;
@@ -8,9 +18,68 @@
 
 label{
     margin: 5px 10px 5px 0;
+    color: rgb(21, 20, 20);
 }
 
 .input{
     width: 25vw;
 }
 
+.field{
+    border:2px solid rgb(130, 130, 130);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family:sans-serif ;
+    height:3vh;
+}
+
+#submit{
+    margin-left: 10%;
+    width:8vw;
+    height: 6vh;
+    border: 2px solid rgb(138, 139, 141);
+    background-color: rgb(41, 42, 42);
+    border-radius: 20px;
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 2%;
+    
+}
+/* 
+#head{
+    color: rgb(1, 7, 11);
+} */
+
+#choose_file{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 50%;
+    height:15%;
+    background-color: black;
+    color: white;
+    
+}
+
+#submit:hover{
+    background-color: rgb(73, 74, 75);
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#homepage{
+    position: relative;
+    left: 90%;
+    top: 1%;
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(42, 80, 230)
+}
+
+#homepage:hover{
+    text-decoration: underline;
+}
+
+.form{
+    background-color: rgb(208, 208, 208);
+}
