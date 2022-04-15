@@ -1,0 +1,39 @@
+#clg_logo{
+    width:100%
+}
+
+.buttons{
+    /* background:transparent; */
+    background-color: rgb(28, 69, 113);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(23, 127, 148);
+    border-radius: 10px;
+    padding: 10px 25px;   
+    cursor: pointer;
+    min-height: fit-content;
+    min-width: fit-content;
+    width: 30%;
+    height: 20%;
+    margin-top: 3vw;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+
+    /* display: inline-flex; */
+
+}
+
+.buttons:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    font-size: 26px;
+    border: 2px solid blue;
+}
+
+.container{
+    margin-top: 8vw;
+}
+
+body{
+    background-color: rgb(160, 197, 250);
+}

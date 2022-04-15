@@ -1,0 +1,16 @@
+.row>* {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+
+    padding-left: 3vw;
+}
+
+label{
+    margin: 5px 10px 5px 0;
+}
+
+.input{
+    width: 25vw;
+}
+
